@@ -1,0 +1,35 @@
+@media (max-width: 1000px) {
+
+   /* --links, buttons, icons, inputs, checkboxes-- */
+   .button {
+    width: 100%;
+}
+
+.button--black:hover {
+    width: 100%; 
+}
+
+
+
+.label-input--white {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#input-name--white,
+#input-phone--white {
+    color: white;  /*ПОЧЕМУ ПЛЕЙСХОЛДЕР НЕ МЕНЯЕТ ЦВЕТ?*/
+    background-color: rgb(255, 255, 255, 0);  
+}
+
+
+
+.checkbox-text {
+    color:white;
+    background-color: rgb(255, 255, 255, 0);
+}
+.checkbox-text {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+}

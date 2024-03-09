@@ -1,0 +1,80 @@
+@media (max-width: 1000px) {
+
+/*   --section-styles--   */
+
+.styles__section {
+    background-image: none;
+}
+
+.styles__section::before {
+    display: none;
+}
+
+.styles__menu, 
+.photo-2, 
+.photo-3, 
+.photo-4 {
+    display: none;
+}
+
+
+.styles__container {
+    margin-bottom: 0px;   
+    justify-content: space-between;
+}
+
+
+.styles__wrapper {
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 0 10px 0 10px;
+}
+
+
+
+
+
+.styles__text {
+    padding-top: 0px;
+}
+
+
+.styles__photos {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.styles__photo  {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    content: url(../img/background-img_styles.png);
+    width: 340px;
+    height: 242px;
+    margin-top: 0px;
+}
+
+.styles__slider--mobile {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;     /*а тут наоборот - ничего не меняется почему-то  */
+}
+.slide-arrow--right {
+    transform: scale(-1, 1)
+}  
+
+
+.styles__h2 {
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+}
+
+}

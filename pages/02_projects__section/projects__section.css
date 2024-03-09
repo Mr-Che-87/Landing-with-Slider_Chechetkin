@@ -1,0 +1,194 @@
+/*   --section-projects--   */
+.projects__section {
+    background: #131313; 
+    width: 100%;
+    padding-bottom: 360px; 
+}
+
+.projects__container {
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 100px 134px 50px 134px;
+    max-width: 1171px;
+    margin: 0 auto;
+}
+.projects__main {
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    max-width: 480px;
+    padding-top: 60px;
+}
+.projects__total {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+}
+
+.projects__info {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;  
+    position: absolute;
+    min-height: 220px;
+    padding-top: 270px;
+    opacity: 0;
+}
+
+.projects__info.active {
+    opacity: 1;
+}
+
+.projects__block {
+    padding-right: 10px;
+}
+.projects__h4 {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-bottom: 5px;
+}
+
+
+.projects__photo-gallery ul {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 45px;
+}
+.projects__photo-gallery li {
+    margin: 5px;
+}
+
+
+
+
+
+
+/*СЛАЙДЕР*/
+.slider__images {
+   position: relative;
+    width: 100%;
+}
+  
+.slider__images .image {
+    display: none;
+    width: 100%;
+    transition: opacity 800ms ease;
+    /*это поменял на display
+    opacity: 0;
+    object-fit: cover;
+    height: 420px;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: 0;
+    top: 0;
+   */
+  }
+  
+  .slider__images .image.active {
+    display: block;
+    /*это поменял на display
+    opacity: 1; 
+    */
+  }
+
+
+  .slider__arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 100%;
+    color: #d61717;
+  }
+    
+  .slider__arrow {
+    cursor: pointer;
+    }
+     
+  .slider__arrow.right {
+    transform: scale(-1, 1);
+    }
+  
+.slider__mob-arrow {
+    display: none;
+}
+
+
+
+  .slider__dots {
+    display: flex;
+}
+  .slider__dots-item {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background 0.4s ease;
+  }
+   .slider__dots-item:hover, .slider__dots-item.active {
+    background: #ccc;
+}
+
+.slider__newTitle.active {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #E3B873;
+    color: #E3B873;
+}
+
+
+
+  /* - для подписей из примера:
+  .slider__images-title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+    padding: 7px 0;
+  }
+*/
+
+
+
+/*content-style*/
+.projects__h2 {
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.projects__p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.projects__block span {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.projects__photo-gallery li {
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+.projects__photo-gallery li:hover {
+    cursor: pointer;
+    padding-bottom: 4px;
+    border-bottom: 1px solid
+
+}
+
+
+

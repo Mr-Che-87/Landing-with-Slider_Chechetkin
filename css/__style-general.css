@@ -1,0 +1,135 @@
+/*
+ЧТО ПОПРАВИТЬ:
+
+БЭМ: делить css-файлы строго по Блокам и делать универсальные html-блоки (отдельными файлами со ссылками внутри кода??) 
+*/
+
+@import url('_interactive-elements.css');
+@import url('_interactive-elements--1000px.css');
+@import url('header.css');
+@import url('header--1000px.css');
+@import url('footer.css');
+@import url('footer--1000px.css');
+
+
+
+@import url('../pages/01_main__section/main__section.css');
+@import url('../pages/01_main__section/main__section--1000px.css');
+@import url('../pages/02_projects__section/projects__section.css');
+@import url('../pages/02_projects__section/projects__section--1000px.css');
+@import url('../pages/02_projects__section/projects__section--1300px.css');
+@import url('../pages/03_camera__section/camera__section.css');
+@import url('../pages/03_camera__section/camera__section--1000px.css');
+@import url('../pages/04_types-repair__section/types-repair__section.css');
+@import url('../pages/04_types-repair__section/types-repair__section--1000px.css');
+@import url('../pages/05_measure__section/measure__section.css');
+@import url('../pages/05_measure__section/measure__section--1000px.css');
+@import url('../pages/06_styles-repair__section/styles-repair__section.css');
+@import url('../pages/06_styles-repair__section/styles-repair__section--1000px.css');
+@import url('../pages/07_feedback__section/feedback__section.css');
+@import url('../pages/07_feedback__section/feedback__section--1000px.css');
+@import url('../pages/08_questions__section/questions__section.css');
+@import url('../pages/08_questions__section/questions__section--1000px.css');
+
+
+
+
+/*  --fonts-- */
+@font-face {
+    font-family: 'YesevaOne';
+    src: url('../fonts/YesevaOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'NunitoSans';
+    src: url('../fonts/NunitoSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'NunitoSans-Italic';
+    src: url('../fonts/NunitoSans-Italic.ttf');
+}
+
+body {
+    font-family: 'NunitoSans',sans-serif;
+    width: 100%;
+}
+
+.h1, h2, h3, h4 {
+    font-family: 'YesevaOne', serif;
+}
+
+.button {
+    font-family: 'NunitoSans-Italic';
+}
+
+
+
+
+/*  --general-- */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /*box-sizing: border-box; - лучше применять сразу  для всего проекта- ВЕРНО?   без него хуже?*/     
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

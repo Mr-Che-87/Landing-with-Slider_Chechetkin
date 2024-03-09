@@ -1,0 +1,31 @@
+@media (max-width: 1000px) {
+
+    /*   --footer--   */
+    
+    .footer {
+        background-image: none;
+        background-color: #131313;
+    }
+    .footer::before {
+        display: none;
+    }
+    
+    .footer__empty {
+        display: none;
+    }
+    
+    
+    .footer__h3 {
+        order: 1;
+        margin-top: -70px;
+        font-size: 18px;
+        line-height: 25px
+    }
+    
+    
+    .footer__icons {
+        order: 1;
+    }
+    
+    
+}

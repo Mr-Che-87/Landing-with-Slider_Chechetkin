@@ -1,0 +1,34 @@
+@media (max-width: 1000px) {
+
+    /*   --section-main--   */
+    .main__section {
+        height: 470px;
+    }
+
+    .main__container  {
+        height: 100%;
+    }
+
+    .main__wrapper   {
+        padding: 82px 18px 0px 18px
+    }
+
+    .h1 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .main__p {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 65px;
+    }
+   
+    .main__buttons button {
+        margin-bottom: 26px;
+    }
+
+}
+
+
+    

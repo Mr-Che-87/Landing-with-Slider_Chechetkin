@@ -1,0 +1,119 @@
+/* --links, buttons, icons, inputs, checkboxes-- */
+a {
+    color: #FFFFFF;
+    }
+a:hover {
+    color:#E3B873;
+}
+
+
+
+.button, 
+.button--black:hover {
+    background: #E3B873;
+    width: 205px;
+    height: 51px;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 2px;
+    border: 0;
+}
+
+.button--black {
+    font-size: 11px;
+    line-height: 15px;
+    background-color: rgb(255, 255, 255, 0);
+    border: 1px solid #FFFFFF;
+}                    
+
+
+.button:not(.types-repair__button):hover {
+    border: 1px solid #000000;
+} /* :not  - исключение  */
+   
+
+
+
+.icon  {
+    display: flex;
+}
+
+
+
+
+input,
+textarea  {
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color:  rgba(54, 54, 54, 0.3); 
+}
+/* как делать размеры текст-ареа динамическими при вводе? */
+
+
+
+.label-input {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgb(255, 255, 255);
+}
+#input-name, 
+#input-phone,
+#input-mail,
+#input-message,
+.checkbox-text  {
+    font-size: 14px;
+    line-height: 23px;
+    color: rgb(255, 255, 255);
+    background-color: #131313;
+    margin-top: 5px;
+}
+
+
+
+
+.label-input--white {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+#input-name--white, 
+#input-phone--white, 
+.checkbox-text--white {
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+}
+
+
+.label-checkbox {
+    cursor: pointer;
+}
+.checkbox {
+   display: none;
+   width: 18px;
+   height: 18px;
+   margin-right: 190px;
+}
+.checkbox--fake {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+.checkbox--fake::before {
+    content:"\2714";
+    opacity: 0;
+}
+.checkbox:checked + .checkbox--fake::before {
+    opacity: 1;
+}

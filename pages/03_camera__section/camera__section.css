@@ -1,0 +1,96 @@
+/*   --section-camera--   */
+
+.camera__section  {
+    width: 100%;
+    margin-top: -337px;
+}
+
+.camera__container {
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+width: 100%;
+max-width: 853px;
+}
+
+.camera__video-block {
+display: flex;
+flex-direction: column;
+align-items: center;  /*если ты вводишь flex-direction: column; - то оси ФАКТИЧЕСКИ меняются местами и align-items превращаются в justify-content - ВЕРНО?  */
+text-align: center;
+padding: 10px 18px;
+}
+
+.camera__icon {
+margin-top: 12px;
+margin-bottom: 28px;
+}
+
+
+
+.camera__iframe {
+width: 100%;  /*чтоб видос не сьезжал при резиновой*/
+object-fit: cover;
+max-width: 817px;
+margin-bottom: 41px;
+}
+
+.camera__iframe iframe {
+width: 100%;
+}
+
+/*РЕЗЕРВ
+.camera__iframe img {
+object-fit: cover; 
+width: 100%;
+}  
+*/
+
+
+.camera__request-video {
+display: flex;
+justify-content: center;
+padding: 0 18px 0 18px;
+}
+
+.camera__request-video-userform {
+display: flex;
+flex-wrap: wrap; /*для переноса на другую строку*/
+justify-content: space-between;
+max-width: 769px;
+margin-top: 70px;
+}
+
+.camera__request-video-username, 
+.camera__request-video-userphone {
+display: flex;
+flex-direction: column;
+}
+
+.camera__request-video-agree {
+display: flex;
+order: 1;
+width: 100%; /*зачем-то нужно, чтобы блок вставал посередине (подобрал методом тыка) - не понял взаимосвязь???*/
+
+justify-content: center;  /* ЗАЧЕМ ЭТО ДУБЛИРОВАТЬ? в родительском диве это уже есть, но если не дублировать - чекбокс не встаёт посередине*/
+margin-top: 34px;
+}
+
+
+
+/*content-style*/
+.camera__h3 {
+color: #FFFFFF;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.camera__text {
+font-size: 18px;
+line-height: 37px;
+text-align: center;
+color: #363636;
+padding-top: 22px;
+}

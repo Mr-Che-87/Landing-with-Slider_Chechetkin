@@ -1,0 +1,8 @@
+@media (max-width: 1000px) {
+
+/*   --section-feedback--   */
+.feedback__section  {
+    display: none;
+}
+
+}

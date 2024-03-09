@@ -1,0 +1,24 @@
+@media (max-width: 1000px) {
+
+    /*   --header--   */
+        .header {
+            height: 57px;
+        }
+    
+        .nav,
+        .header__header-right button {
+            display: none;
+        }
+    
+        .header__container {
+            display: flex;
+            justify-content: space-between;
+            padding: 23px 9px 19px 18px;
+        }
+    
+        .header__header-right {
+            min-width: max-content;
+            flex-grow: 0; 
+        }
+
+    }

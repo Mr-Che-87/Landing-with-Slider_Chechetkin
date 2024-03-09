@@ -1,0 +1,38 @@
+@media (max-width: 1000px) {
+
+/*   --section-questions--   */
+
+.questions__section {
+    background-color: #131313;
+    margin-top: -122px;
+}
+
+
+.questions__container {
+    padding: 0 17px 0 17px;
+}
+
+.questions__h3 {
+    margin-top: 168px;
+}
+
+.questions__usermane,
+.questions__userphone,
+.questions__message {
+    margin-top: 54px;
+}
+
+.questions__userform {
+    width: 340px;
+}
+
+.questions__message textarea {
+    width: 340px;
+}
+
+.questions__userform button {
+    margin-top: 40px;
+    margin-bottom: 44px;
+}
+
+}
